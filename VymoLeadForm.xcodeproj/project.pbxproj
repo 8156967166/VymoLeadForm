@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D22918F930B5DD9B00BCC880 /* VymoDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = D22918F830B5DD9B00BCC880 /* VymoDesignSystem */; };
+		D229191A30B6B1DD00BCC880 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D229191830B6B1D700BCC880 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D22918DA30B5DA0000BCC880 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,7 @@
 		D22918CC30B5D9FF00BCC880 /* VymoLeadForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VymoLeadForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22918D930B5DA0000BCC880 /* VymoLeadFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VymoLeadFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22918E330B5DA0000BCC880 /* VymoLeadFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VymoLeadFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D229191830B6B1D700BCC880 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22918F930B5DD9B00BCC880 /* VymoDesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +82,7 @@
 		D22918C330B5D9FF00BCC880 = {
 			isa = PBXGroup;
 			children = (
+				D229191830B6B1D700BCC880 /* README.md */,
 				D22918CE30B5D9FF00BCC880 /* VymoLeadForm */,
 				D22918DC30B5DA0000BCC880 /* VymoLeadFormTests */,
 				D22918E630B5DA0000BCC880 /* VymoLeadFormUITests */,
@@ -112,6 +120,7 @@
 			);
 			name = VymoLeadForm;
 			packageProductDependencies = (
+				D22918F830B5DD9B00BCC880 /* VymoDesignSystem */,
 			);
 			productName = VymoLeadForm;
 			productReference = D22918CC30B5D9FF00BCC880 /* VymoLeadForm.app */;
@@ -195,6 +204,9 @@
 			);
 			mainGroup = D22918C330B5D9FF00BCC880;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D22918F730B5DD9B00BCC880 /* XCLocalSwiftPackageReference "VymoDesignSystem" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D22918CD30B5D9FF00BCC880 /* Products */;
 			projectDirPath = "";
@@ -212,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D229191A30B6B1DD00BCC880 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +583,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D22918F730B5DD9B00BCC880 /* XCLocalSwiftPackageReference "VymoDesignSystem" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = VymoDesignSystem;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D22918F830B5DD9B00BCC880 /* VymoDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VymoDesignSystem;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D22918C430B5D9FF00BCC880 /* Project object */;
 }

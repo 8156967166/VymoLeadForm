@@ -11,7 +11,7 @@ import SwiftUI
 struct VymoLeadFormApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LeadFormView()
         }
     }
 }
